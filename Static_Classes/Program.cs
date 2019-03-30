@@ -15,7 +15,7 @@ namespace Static_Classes
             instance1.Method();
             instance2.Method();
 
-            // Notstatic class-object call
+            // Notstatic class-object call a static field of class
             NotStaticClass.field = 1;
             instance1.Method();
             instance2.Method();
