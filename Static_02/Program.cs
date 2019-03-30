@@ -11,6 +11,7 @@ namespace Static_02
         static void Main(string[] args)
         {
             NotStaticClass instance = new NotStaticClass(1);
+            NotStaticClass instance2 = new NotStaticClass(2);
             NotStaticClass.Method();
 
             Console.ReadLine();
