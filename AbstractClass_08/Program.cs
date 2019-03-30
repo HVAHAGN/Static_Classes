@@ -10,7 +10,10 @@ namespace AbstractClass_08
     {
         static void Main(string[] args)
         {
+            //abstract class can contain static member
             AbstractClass instance = AbstractClass.CreateObject();
+            
+            // call not static method 
             instance.Method();
 
             Console.ReadLine();
